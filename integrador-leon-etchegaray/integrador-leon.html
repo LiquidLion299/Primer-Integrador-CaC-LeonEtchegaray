@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Conferencia BsAs</title>
+  <!--Adición de Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!--Comienzo de la barra de navegacion-->
+  <div class="container-fluid text-center">
+    <div class="row align-items-center barranav">
+      <div class="col-1 cac">
+        <img src="img/codoacodo.png" alt="codoacodo">
+      </div>
+      <div class="col-2 bsas">
+        <h1>Conf Bs As</h1>
+      </div>
+
+      <nav class="col-9 justify-content-end" id="titulo">
+        <ul>
+            <li><a href="#conferencia">La conferencia</a></li>
+            <li><a href="#oradores">Los oradores</a></li>
+            <li><a href="#">El lugar y la fecha</a></li>
+            <li><a href="#">Conviertete en orador</a></li>
+            <li><a class="lverde" href="#">Comprar tickets</a></li>
+        </ul>
+    </nav>
+
+    </div>
+  </div>
+  <!--Fin de la barra de navegacion-->
+
+  <!--Comienzo del contenedor de la seccion con imagen de fondo-->
+  <div class="container-fluid cont1" id="conferencia"> 
+    <div class="row fila1"> <!--Abro una fila con columnas para acomodar mas facil el texto-->
+      <div class="fondo1"> <!--Descripción con imagen de fondo-->
+        <div class="texto1 text-center offset-sm-3 offset-md-6 text-sm-end col-12 col-sm-8 col-md-5">
+        <h1>Conf Bs As</h1>
+        <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+        <form>
+          <input class="boton1 mt-3 mt-md-0 mx-1" type="button" value="Quiero ser orador">
+          <input class="boton2 mt-3 mt-md-2 mx-1" type="button" value="Comprar tickets">
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Fin del contenedor con imagen de fondo-->
+
+  <!--Comienzo del contenedor con los oradores-->
+  <div class="container-fluid cont2" id="oradores">
+    <div class="row fila2">
+      <div class="col-12 text-center texto-chico">
+        <p>CONOCÉ A LOS</p>
+        <h1>ORADORES</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center sfila2"> <!--Subfila para centrar imagenes y texto-->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 cuadro mx-2 my-2"> <!--Steve Jobs-->
+          <img src="img/steve.jpg" alt="Steve Jobs">
+          <p><span class="js etiquetas">Javascript</span><span class="react etiquetas">React</span></p>
+          <h1>Steve Jobs</h1>
+          <p class="mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero atque voluptatem aliquid sit illum deleniti at cupiditate adipisci amet. Laboriosam molestias quibusdam unde neque pariatur non maxime, rerum aliquid nesciunt?</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 cuadro mx-2 my-2"> <!--Bill Gates-->
+          <img src="img/bill.jpg" alt="Bill Gates">
+          <p><span class="js etiquetas">Javascript</span><span class="react etiquetas">React</span></p>
+          <h1>Bill Gates</h1>
+          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus est asperiores magni saepe illum possimus perferendis quaerat tempora, corporis eius iste, maiores ut! Vitae vel quasi neque eaque rerum nesciunt?</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 cuadro mx-1 mx-md-2 my-2"> <!--Ada Lovelace-->
+          <img src="img/ada.jpeg" alt="Ada Lovelace">
+          <p><span class="negocios etiquetas">Negocios</span><span class="sups etiquetas">Startups</span></p>
+          <h1>Ada Lovelace</h1>
+          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos adipisci ipsam magnam, rem aperiam accusantium porro ullam laboriosam maiores, similique nam, ex ab quidem natus! Dicta rem odit repellat enim?</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!--Fin del contenedor con los oradores-->
+</body>
+</html>
